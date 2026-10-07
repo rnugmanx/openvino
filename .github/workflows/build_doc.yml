@@ -28,7 +28,7 @@ jobs:
           packages: graphviz texlive liblua5.2-0 libclang1-9 libclang-cpp9
           version: 3.0
 
-      - uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         id: cp310
         with:
           python-version: '3.10'
